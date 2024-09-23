@@ -1,0 +1,49 @@
+# Lua编译文件
+*.luac
+
+# LuaRocks构建文件
+*.rockspec
+*.so
+*.dylib
+*.dll
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器和IDE文件
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.orig
+*.rej
+*.lock
+.vscode/
+.idea/
+
+# 测试文件
+test/
+tests/
+spec/
+
+# 构建工具
+build/
+dist/
+out/
+
+# 虚拟环境
+venv/
+.env/
+
+# 日志文件
+*.log
+
+# 其他临时文件
+*.pyc
+*.pyo
+*.class
+*.jar
+*.egg-info/
+*.egg
